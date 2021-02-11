@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "Gem to obtain and manipulate the most common regex in a easy way"
   s.authors     = ["Gregorio Vazquez"]
   s.email       = 'gregoriovazya@gmail.com'
-  s.files       = ["lib/regex.rb"]
-  s.homepage    = ''
+  s.files       = ["README.md", "lib/regex.rb"]
+  s.homepage    = 'https://github.com/jvargas98'
   s.license     = 'MIT'
 end
