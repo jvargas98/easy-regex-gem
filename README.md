@@ -16,3 +16,19 @@ easy-regex gem allows you to use and create regular expressions in a very easy w
   - Phone number.
   - Address
 - Regular expressions must be classified according to their function.
+
+## Use
+
+- Install the gem *easy-regex* `gem install easy-regex-x.x.x.gem`
+- Use the gem `require 'easy-regex'`
+- Call the module `ERegex` follow by the class `(Internet|Personal)` and the     regex `ERegex::Internet.email`
+ 	- Classification
+	- Internet
+		- email
+		- password
+		- domain
+		- url
+	- Personal
+		- name
+		- phone
+		- address
